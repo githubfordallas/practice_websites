@@ -1,0 +1,131 @@
+/*  F O N T S  */
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+
+body {
+  background-color: #EEEEEE;
+  padding: 0 40px;
+}
+
+
+/*  M O D U L E   S E T - U P  */
+
+.module {
+  color: #F5F5F5;
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.1em;
+  max-width: 720px;
+  margin: 40px auto 0;
+  padding: 0;
+}
+
+
+/*  M O D U L E   L I N K S  */
+
+.module a {
+  color: #757575;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.module a:hover {
+  text-decoration: underline;
+}
+
+
+/*  M O D U L E   L I S T S  */
+
+.module ol {
+  background-color: #212121;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px #E0E0E0;
+  counter-reset: item;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.module li {
+  display: block;
+  list-style-position: outside;
+  margin-bottom: 5px;
+}
+
+.module li:before {
+  content: counter(item) "  ";
+  counter-increment: item;
+  user-select: none;
+}
+
+
+/*  M O D U L E   C O L O R S  */
+
+.module .comment {
+  color: #757575;
+}
+
+.module .keyword {
+  color: #CE93D8;
+}
+
+.module .function {
+  color: #9FA8DA;
+}
+
+.module .string {
+  color: #FFF176;
+}
+
+.module .obj {
+  color: #FFEE58;
+}
+
+.module .method {
+  color: #A7FFEB;
+}
+
+.module .number {
+  color: #FFB74D;
+}
+
+
+/*  M O D U L E   T O G G L E   C O D E  */
+
+.module .hide {
+  display: none;
+}
+
+.module .show {
+  display: block;
+}
+
+
+/*  M O D U L E   I N D E N T  */
+
+.module .indent {
+  padding-left: 24px;
+}
+
+.module .double_indent {
+  padding-left: 48px;
+}
+
+.module .triple_indent {
+  padding-left: 72px;
+}
+
+.module .quad_indent {
+  padding-left: 96px;
+}
+
+
+/*  M O D U L E   M I S C  */
+
+.module .title {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.module .line {
+  margin: 12px;
+}
