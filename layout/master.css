@@ -1,0 +1,131 @@
+/* BODY */
+body {
+  margin:auto;
+  background-color: #e67e22;
+}
+
+/* CONTAINER */
+#container {
+}
+
+/* HEADER */
+#header {
+  text-align: center; /* Centering inline level elements. */
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #2c3e50;
+}
+
+.title {
+  display: inline-block; /* Converting block level elements to inline elements. */
+  margin: 28px 0 0 0;
+  padding: 0;
+  height: 25px;
+  width: 200px;
+  background-color: #27ae60;
+}
+
+.subtitle {
+  display: flex;
+  margin: 0 auto; /* Centering up block level elements */
+  padding: 0;
+  height: 15px;
+  width: 100px;
+  background-color: #27ae60;
+}
+
+/* NAV */
+#nav {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  width: 100%;
+  background-color: #27ae60;
+}
+
+/* BUTTON */
+.button {
+  display: inline-block;
+  margin: 5px;
+  padding: 0;
+  height: 20px;
+  width: 50px;
+  background-color: #c0392b;
+}
+
+.button:hover {
+  background-color: #e74c3c;
+}
+
+.button:active {
+  background-color: #ecf0f1;
+}
+
+/* CONTENT */
+#content {
+  padding: 0 40px;
+}
+
+/* POST */
+.post {
+  margin: 20px auto;
+  padding: 0;
+  height: 100px;
+  width: auto;
+  max-width: 500px;
+  background-color: #9b59b6;
+}
+
+/* IMAGE */
+.image-right {
+  float: right;
+  margin: 10px;
+  padding: 0;
+  height: 50px;
+  width: 50px;
+  background-color: #f1c40f;
+}
+
+.image-left {
+  float: left;
+  margin: 10px;
+  padding: 0;
+  height: 50px;
+  width: 50px;
+  background-color: #bdc3c7;
+}
+
+/* FOOTER */
+#footer {
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #7f8c8d;
+}
+
+/* SMALL BUTTON */
+.small-button {
+  display: inline-block;
+  margin: 15px 7px;
+  padding: 0;
+  height: 15px;
+  width: 60px;
+  background-color: #1abc9c;
+}
+
+.small-button:hover {
+  background-color: #2ecc71;
+}
+
+.small-button:active {
+  background-color: #ecf0f1;
+}
