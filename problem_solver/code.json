@@ -1,0 +1,16 @@
+[
+  {
+    "title": "title",
+    "requirments": ["// Requirments...", "More Stuff..."],
+    "hidden": true,
+    "code": ["console.log('vape')", "console.log('nation')"],
+    "result": ["// Result...", "More Stuff..."]
+  },
+  {
+    "title": "title",
+    "requirments": ["// Requirments...", "More Stuff..."],
+    "hidden": true,
+    "code": ["console.log('vape')", "console.log('nation')"],
+    "result": ["// Result...", "More Stuff..."]
+  }
+]
