@@ -1,0 +1,103 @@
+@import url("normalize.css");
+
+
+/*              ---VISUAL KEY---
+ *     white background = #f7f7f7
+ *         regular font = #333
+ *         lighter font = #b0b0b0
+ *             diag-btn = #4285f4
+ *        diag-btn font = #fff
+ *         details font = #6d6d6d
+ */
+
+/* TYPOGRAPHY */
+
+h1, h2, h3, h4, h5, h6, p, a, li, button {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  line-height: 1.5em;
+  color: #333;
+  letter-spacing: .001em;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+p, a, li, button {
+  font-size: .95em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.light-font {
+  color: #b0b0b0;
+  font-size: .75em;
+}
+
+/* BACKGROUND */
+
+body {
+  background-color: #f7f7f7;
+}
+
+/* IMAGE */
+
+img {
+  height: 45px;
+  width: auto;
+}
+
+/* STRUCTURE */
+
+.page {
+  margin: auto;
+  max-width: 600px;
+}
+
+body {
+  padding: 130px 20px 0;
+}
+
+.fuck-you {
+  margin-top: -15px;
+}
+
+/* DETAILS BUTTON */
+
+.lower-this {
+  margin-top: 60px;
+}
+
+.details-btn {
+  border: none;
+  background-color: #f7f7f7;
+  color: #6d6d6d;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-size: .75em;
+}
+
+.details-btn:hover {
+  text-decoration: underline;
+}
+
+/* DIAG BUTTON */
+
+.diag-btn {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 8px 28px;
+  border: none;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: .85em;
+}
+
+.hidden-btn {
+  display: none;
+  margin-top: 70px;
+}
