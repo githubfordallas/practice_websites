@@ -1,0 +1,96 @@
+body {
+  margin: auto;
+  background-color: white;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 100%;
+  background-color: #f8941d;
+}
+/* ME! */
+#me-container img {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  margin: 80px 0 50px 0;
+  padding: 0;
+}
+
+/* HEADLINE */
+#header-container {
+  padding: 0 15px;
+}
+
+#header-container h2 {
+  display: inline-block;
+  color: white;
+  font-size: 24px;
+  font-family: arial;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  word-spacing: .1em;
+  max-width: 500px;
+  height: auto;
+  margin: 0 0 50px 0;
+  padding: 0;
+}
+
+/* SUBSCRIBE */
+#subscribe-container {
+  padding: 0 0 80px 0;
+}
+
+.email-entry {
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  color: #a1a1a1;
+  background-color: white;
+  border: 0;
+  border-radius: 0;
+  padding: 5px 10px;
+  margin: 0;
+  width: 150px;
+  height: 40px;
+}
+
+.subscribe-button {
+  font-size: 20px;
+  color: white;
+  letter-spacing: 0.05em;
+  background-color: #72a533;
+  border: 0;
+  border-radius: 0;
+  padding: 5px 10px;
+  margin: 0 0 0 -5px;
+  width: 150px;
+  height: 50px;
+}
+
+
+
+/* PROJECTS */
+section {
+  text-align: center;
+  background-color: #c0fafe;
+}
+
+.black-color {
+  display: inline-block;
+  color: #252525;
+  font-size: 24px;
+  font-family: arial;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  word-spacing: .1em;
+  max-width: 500px;
+  height: auto;
+  margin: 50px 0;
+  padding: 0;
+}
+
+/* FOOTER */
